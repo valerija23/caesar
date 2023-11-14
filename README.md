@@ -10,12 +10,13 @@ Uzlabot kodu un saglabāt izmaiņas savā repozitorijā.
 Uzrakstīt komentārus katrai koda rindai, kura satur:  
 - if, elif, else
 - for
-- funkcijas definēšanu 
+- funkcijas definēšanu
+  
+Komentāriem jābūt atsevišķā no koda rindā.  
+Komentāriem jāapraksta - priekš kam dota koda rinda ir vajadzīga.  
+Kas ir komentāri un kā tos rakstīt [Python Comments](https://www.w3schools.com/python/python_comments.asp)  
 
-Komentāriem jāapraksta - priekš kam dota koda rinda ir vajadzīga.
-Kas ir komentāri un kā tos rakstīt [Python Comments](https://www.w3schools.com/python/python_comments.asp)
-
-Kad šī uzdēvuma daļa ir pabeigta - izmaiņas jasinhronizē ar repozitoriju:
+Kad šī uzdevuma daļa ir pabeigta - izmaiņas jasinhronizē ar repozitoriju:
 - jānospiež "Commit Changes"
 - "Commit message" jāieraksta izmaiņu būtību
 - jānospiež "Commit Changes"
@@ -27,7 +28,43 @@ Kad šī uzdēvuma daļa ir pabeigta - izmaiņas jasinhronizē ar repozitoriju:
 - izmanto 4 atstarpes katram atkāpes līmenim un izvairies no tabulācijas
 - ierobežo visu rindu maksimālo garumu līdz 79 zīmēm
 
-Kad šī uzdēvuma daļa ir pabeigta - izmaiņas jasinhronizē ar repozitoriju.
+Kad šī uzdevuma daļa ir pabeigta - izmaiņas jasinhronizē ar repozitoriju.
+
+## Pārbaudīt koda atbilstību specifikācijai
+Kods ir izstrādāts, lai veiktu šifrēšanu un atšifrēšanu, izmantojot vienkāršu Cēzara šifru uz doto tekstu. Tas nodrošina lietotājam vadības saskarni, kurā izvēlēties starp šifrēšanu, atšifrēšanu un mēģinājumu izmēģināt visas iespējamās rotācijas.
+
+1. Programma ņem lietotāja ievadi, lai noteiktu darbības režīmu. 
+  Atkarībā no izvēlētā režīma programma turpmāk lūdz lietotāju ievadīt tekstu un rotācijas vērtības.
+
+2. Režīms 1:  
+  Lietotājam tiek prasīts ievadīt tekstu un rotāciju šifrēšanai.  
+  Pēc tam tiek parādīts šifrētais teksts.  
+  Ja rotācijas parametrs nav vesels skaitlis - tiek paradīts kļūdas paziņojums un netiek turpināta programmas izpilde.  
+
+3. Režīms 2:  
+  Lietotājam tiek prasīts ievadīt tekstu un rotāciju atšifrēšanai.  
+  Pēc tam tiek parādīts atšifrētais teksts.  
+  Ja rotācijas parametrs nav vesels skaitlis - tiek paradīts kļūdas paziņojums un netiek turpināta programmas izpilde.  
+
+4. Režīms 3:  
+  Programma izdrukā dešifrētas rotācijas no 1 līdz 26, formātā "{rotācijas numurs} {dešifrēts teksts}"
+
+5. Ja ir ievadīts neatbilstošs režīms - tiek paradīts kļūdas paziņojums
+
+6. Ja ievadīts teksts ir ar maziem būrtiem - konvertēt tos uz lielajiem burtiem.
+
+Piemēri:
+1. Ievads: režīms 1, teksts "TODAY IS MY FAVORITE DAY", rotācija 19. Izvads: "MHWTR BL FR YTOHKBMX WTR".  
+2. Ievads: režīms 2, teksts "MHWTR BL FR YTOHKBMX WTR", rotācija 19. Izvads: "TODAY IS MY FAVORITE DAY".  
+3. Ievads: režīms 1, teksts "Grunkle Stan is not what he seems", rotācija 3. Izvads: "JUXQNOH VWDQ LV QRW ZKDW KH VHHPV".
+4. Ievads: režīms 1, teksts "TEV AFA VLR TOFQB QEFP?", rotācija -4. Izvads: "WHY DID YOU WRITE THIS".  
+  
+## Ieraksti neatbilstošus specifikācijas punktus zemāk un piemini kāpēc tie neatblist. Izmaiņas saglabā savā repozitorijā (Commit changes)   
+Šeit:
+
+## Uzrādi uzdevumu rezultātu pedagogam  
+
+## Uzlabo kodu un salabo režīmu 3  
 
 # Piemēri no Gravity Falls
 ![Gravity Falls](http://themysteryofgravityfalls.com/images/credits/001.jpg "Gravity Falls") 
