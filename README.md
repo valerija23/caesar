@@ -3,7 +3,7 @@ Cēzara šifrs ir viens no kriptogrāfijā pielietotajiem šifriem. To pirmais i
 
 ![Cēzara šifrs](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/600px-Caesar3.svg.png "Cēzara šifrs")
 
-# Uzdēvums
+# Uzdevums
 Uzlabot kodu un saglabāt izmaiņas savā repozitorijā.
 
 ## Uzrakstīt koda komentārus
