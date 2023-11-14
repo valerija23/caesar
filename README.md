@@ -59,8 +59,10 @@ Piemēri:
 3. Ievads: režīms 1, teksts "Grunkle Stan is not what he seems", rotācija 3. Izvads: "JUXQNOH VWDQ LV QRW ZKDW KH VHHPV".
 4. Ievads: režīms 1, teksts "TEV AFA VLR TOFQB QEFP?", rotācija -4. Izvads: "WHY DID YOU WRITE THIS".  
   
-## Ieraksti neatbilstošus specifikācijas punktus zemāk un piemini kāpēc tie neatblist. Izmaiņas saglabā savā repozitorijā (Commit changes)   
+## Ieraksti neatbilstošus specifikācijas punktus zemāk un piemini kāpēc tie neatblist
 Šeit:
+
+Izmaiņas saglabā savā repozitorijā (Commit changes).  
 
 ## Uzrādi uzdevumu rezultātu pedagogam  
 
